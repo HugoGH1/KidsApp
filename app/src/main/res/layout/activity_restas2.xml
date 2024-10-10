@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Restas2">
+
+    <TextView
+        android:id="@+id/fondo_mar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fondo_mar"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="-150dp" />
+
+    <TextView
+        android:id="@+id/tvresult"
+        android:layout_width="131dp"
+        android:layout_height="146dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/bungeeinline_regular"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="@+id/tvresultFondo"
+        app:layout_constraintTop_toTopOf="@+id/tvresultFondo" />
+
+    <TextView
+        android:id="@+id/tvresultFondo"
+        android:layout_width="134dp"
+        android:layout_height="146dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="512dp"
+        android:background="#D1AC86"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvNum2Fondo"
+        android:layout_width="134dp"
+        android:layout_height="146dp"
+        android:layout_marginStart="264dp"
+        android:layout_marginTop="240dp"
+        android:background="#D1AC86"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvNum2"
+        android:layout_width="133dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="212dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/bungeeinline_regular"
+        android:textAlignment="center"
+        android:textColor="#EFEEE4"
+        android:textSize="80sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvigual"
+        android:layout_width="82dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="424dp"
+        android:background="@drawable/signoigual"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvresta"
+        android:layout_width="82dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="280dp"
+        android:background="@drawable/menos"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvNum1Fondo"
+        android:layout_width="134dp"
+        android:layout_height="146dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="240dp"
+        android:background="#D1AC86"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvNum1"
+        android:layout_width="136dp"
+        android:layout_height="142dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="212dp"
+        android:fontFamily="@font/bungeeinline_regular"
+        android:textAlignment="center"
+        android:textColor="#EFEEE4"
+        android:textSize="80sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/estrella"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="705dp"
+        android:layout_marginEnd="275dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/estrella" />
+
+    <ImageView
+        android:id="@+id/estrella2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="705dp"
+        android:layout_marginEnd="143dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/estrella" />
+
+    <ImageView
+        android:id="@+id/estrella3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="705dp"
+        android:layout_marginEnd="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/estrella" />
+
+    <Button
+        android:id="@+id/resp1"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless"
+        android:layout_width="127dp"
+        android:layout_height="126dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="324dp"
+        android:backgroundTint="#4FBCDB"
+        android:fontFamily="@font/bungeeinline_regular"
+        android:text="@string/vacio"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvNum1Fondo" />
+
+    <Button
+        android:id="@+id/resp2"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless"
+        android:layout_width="127dp"
+        android:layout_height="126dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="710dp"
+        android:backgroundTint="#4FBCDB"
+        android:fontFamily="@font/bungeeinline_regular"
+        android:text="@string/vacio"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/fondo_mar" />
+
+    <Button
+        android:id="@+id/resp3"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless"
+        android:layout_width="127dp"
+        android:layout_height="126dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="708dp"
+        android:backgroundTint="#4FBCDB"
+        android:fontFamily="@font/bungeeinline_regular"
+        android:text="@string/vacio"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        app:layout_constraintStart_toEndOf="@+id/resp2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="399dp"
+        android:layout_height="197dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="708dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/letrero" />
+
+    <TextView
+        android:id="@+id/letrero"
+        android:layout_width="352dp"
+        android:layout_height="39dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="56dp"
+        android:fontFamily="@font/bungeeinline_regular"
+        android:text="@string/letrero"
+        android:textColor="#EFEEE4"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2" />
+    <TextView
+        android:id="@+id/tvAciertos"
+        android:layout_width="166dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="28dp"
+        android:fontFamily="@font/bungeeinline_regular"
+        android:text="@string/vacio"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SeaLearn</string>
+    <string name="sumas">S U M A R</string>
+    <string name="vacio">r</string>
+    <string name="primero">1er grado</string>
+    <string name="segundo">2do grado</string>
+    <string name="tercero">3er grado</string>
+    <string name="letrero">Elige la respuesta correcta</string>
+    <string name="contar">C O N T A R</string>Ç
+    <string name="cuantos">¿Cuántos hay?</string>
+    <string name="restar">R E S T A R</string>
+    <string name="sonidos">S O N I D O S</string>
+    <string name="letra">¿Qué letra se escucha?</string>
+    <string name="bienvenido">¡Bienvenido!</string>
+    <string name="jugar">JUGAR</string>
+    <string name="animales">¿Con qué letra empieza?</string>
+    <string name="incial">I N I C I A L</string>
+    <string name="dosjugadores">2 P</string>
+</resources>

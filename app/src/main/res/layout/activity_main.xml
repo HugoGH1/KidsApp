@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/fondo_mar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fondo_mar" />
+
+    <Button
+        android:id="@+id/btnContar"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="261dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="200dp"
+        android:backgroundTint="#D1AC86"
+        android:fontFamily="@font/bungeeinline_regular"
+        android:text="@string/contar"
+        android:textAllCaps="false"
+        android:textColor="#B27425"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/fondo_mar" />
+
+    <Button
+        android:id="@+id/btnSumas"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="261dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="176dp"
+        android:layout_marginEnd="200dp"
+        android:backgroundTint="#D1AC86"
+        android:fontFamily="@font/bungeeinline_regular"
+        android:text="@string/sumas"
+        android:textAllCaps="false"
+        android:textColor="#B27425"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/fondo_mar" />
+
+    <Button
+        android:id="@+id/btnResta"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="261dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="200dp"
+        android:backgroundTint="#D1AC86"
+        android:fontFamily="@font/bungeeinline_regular"
+        android:text="@string/restar"
+        android:textAllCaps="false"
+        android:textColor="#B27425"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/fondo_mar" />
+
+    <Button
+        android:id="@+id/btnSonidos"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="261dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="460dp"
+        android:layout_marginEnd="200dp"
+        android:backgroundTint="#D1AC86"
+        android:fontFamily="@font/bungeeinline_regular"
+        android:text="@string/sonidos"
+        android:textAllCaps="false"
+        android:textColor="#B27425"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/fondo_mar" />
+
+    <Button
+        android:id="@+id/btnInical"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="261dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="588dp"
+        android:layout_marginEnd="200dp"
+        android:backgroundTint="#D1AC86"
+        android:fontFamily="@font/bungeeinline_regular"
+        android:text="@string/incial"
+        android:textAllCaps="false"
+        android:textColor="#B27425"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/fondo_mar" />
+
+    <Button
+        android:id="@+id/Comp"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="261dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="732dp"
+        android:layout_marginEnd="200dp"
+        android:backgroundTint="#D1AC86"
+        android:fontFamily="@font/bungeeinline_regular"
+        android:text="@string/dosjugadores"
+        android:textAllCaps="false"
+        android:textColor="#B27425"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/fondo_mar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

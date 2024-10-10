@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DificultadSumas">
+
+    <TextView
+        android:id="@+id/fondo_mar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fondo_mar" />
+
+    <Button
+        android:id="@+id/btnTercero"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="300dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="544dp"
+        android:layout_marginEnd="56dp"
+        android:backgroundTint="#FFCECE"
+        android:fontFamily="@font/bungeeinline_regular"
+        android:text="@string/tercero"
+        android:textAllCaps="false"
+        android:textColor="#B27425"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/fondo_mar" />
+
+    <Button
+        android:id="@+id/btnSegundo"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="300dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="352dp"
+        android:layout_marginEnd="64dp"
+        android:backgroundTint="#F7F7AD"
+        android:fontFamily="@font/bungeeinline_regular"
+        android:text="@string/segundo"
+        android:textAllCaps="false"
+        android:textColor="#B27425"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/fondo_mar" />
+
+    <Button
+        android:id="@+id/btnPrimero"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="300dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="172dp"
+        android:layout_marginEnd="64dp"
+        android:backgroundTint="#DAF7A6"
+        android:fontFamily="@font/bungeeinline_regular"
+        android:text="@string/primero"
+        android:textAllCaps="false"
+        android:textColor="#B27425"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/fondo_mar" />
+</androidx.constraintlayout.widget.ConstraintLayout>

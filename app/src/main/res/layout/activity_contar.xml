@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sumas3">
+
+    <TextView
+        android:id="@+id/fondo_mar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fondo_mar"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="-150dp" />
+
+
+    <ImageView
+        android:id="@+id/estrella"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="705dp"
+        android:layout_marginEnd="275dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/estrella" />
+
+    <ImageView
+        android:id="@+id/estrella2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="705dp"
+        android:layout_marginEnd="143dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/estrella" />
+
+    <ImageView
+        android:id="@+id/estrella3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="705dp"
+        android:layout_marginEnd="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/estrella" />
+
+    <Button
+        android:id="@+id/resp1"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless"
+        android:layout_width="127dp"
+        android:layout_height="126dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="700dp"
+        android:backgroundTint="#4FBCDB"
+        android:fontFamily="@font/bungeeinline_regular"
+        android:text="@string/vacio"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/resp2"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless"
+        android:layout_width="127dp"
+        android:layout_height="126dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="700dp"
+        android:backgroundTint="#4FBCDB"
+        android:fontFamily="@font/bungeeinline_regular"
+        android:text="@string/vacio"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/resp3"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless"
+        android:layout_width="127dp"
+        android:layout_height="126dp"
+        android:layout_marginStart="269dp"
+        android:layout_marginTop="700dp"
+        android:backgroundTint="#4FBCDB"
+        android:fontFamily="@font/bungeeinline_regular"
+        android:text="@string/vacio"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="399dp"
+        android:layout_height="197dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="708dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/letrero" />
+
+    <TextView
+        android:id="@+id/letrero"
+        android:layout_width="354dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="56dp"
+        android:fontFamily="@font/bungeeinline_regular"
+        android:text="@string/cuantos"
+        android:textColor="#EFEEE4"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="322dp"
+        android:layout_height="290dp"
+        android:layout_marginTop="336dp"
+        android:layout_marginEnd="52dp"
+        app:layout_constraintEnd_toEndOf="@+id/fondo_mar"
+        app:layout_constraintTop_toTopOf="@+id/fondo_mar"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/tvAciertos"
+        android:layout_width="166dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="28dp"
+        android:fontFamily="@font/bungeeinline_regular"
+        android:text="@string/vacio"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

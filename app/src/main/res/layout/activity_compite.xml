@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Compite">
+
+    <TextView
+        android:id="@+id/layAzul2"
+        android:layout_width="431dp"
+        android:layout_height="485dp"
+        android:layout_marginBottom="476dp"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/layAzul"
+        android:layout_width="433dp"
+        android:layout_height="483dp"
+        android:layout_marginTop="484dp"
+        android:background="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/estrella4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="280dp"
+        android:rotation="179"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/estrella" />
+
+    <ImageView
+        android:id="@+id/estrella5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="148dp"
+        android:rotation="179"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/estrella" />
+
+    <ImageView
+        android:id="@+id/estrella6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="20dp"
+        android:rotation="179"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/estrella" />
+
+    <Button
+        android:id="@+id/resp1p2"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless"
+        android:layout_width="127dp"
+        android:layout_height="126dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="128dp"
+        android:backgroundTint="#4FBCDB"
+        android:fontFamily="@font/bungeeinline_regular"
+        android:rotation="179"
+        android:text="@string/vacio"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/resp3p2"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless"
+        android:layout_width="127dp"
+        android:layout_height="126dp"
+        android:layout_marginStart="264dp"
+        android:layout_marginTop="124dp"
+        android:backgroundTint="#4FBCDB"
+        android:fontFamily="@font/bungeeinline_regular"
+        android:rotation="179"
+        android:text="@string/vacio"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/resp2p2"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless"
+        android:layout_width="127dp"
+        android:layout_height="126dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="124dp"
+        android:backgroundTint="#4FBCDB"
+        android:fontFamily="@font/bungeeinline_regular"
+        android:rotation="179"
+        android:text="@string/vacio"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/estrella"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="680dp"
+        android:layout_marginEnd="272dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/estrella" />
+
+    <ImageView
+        android:id="@+id/estrella2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="680dp"
+        android:layout_marginEnd="140dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/estrella" />
+
+    <ImageView
+        android:id="@+id/estrella3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="680dp"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/estrella" />
+
+    <Button
+        android:id="@+id/resp1"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless"
+        android:layout_width="127dp"
+        android:layout_height="126dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="672dp"
+        android:backgroundTint="#4FBCDB"
+        android:fontFamily="@font/bungeeinline_regular"
+        android:text="@string/vacio"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/resp3"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless"
+        android:layout_width="127dp"
+        android:layout_height="126dp"
+        android:layout_marginStart="268dp"
+        android:layout_marginTop="672dp"
+        android:backgroundTint="#4FBCDB"
+        android:fontFamily="@font/bungeeinline_regular"
+        android:text="@string/vacio"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/resp2"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless"
+        android:layout_width="127dp"
+        android:layout_height="126dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="672dp"
+        android:backgroundTint="#4FBCDB"
+        android:fontFamily="@font/bungeeinline_regular"
+        android:text="@string/vacio"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imap1"
+        android:layout_width="154dp"
+        android:layout_height="138dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="136dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/layAzul"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/imap"
+        android:layout_width="154dp"
+        android:layout_height="138dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginBottom="12dp"
+        android:rotation="179"
+        app:layout_constraintBottom_toBottomOf="@+id/layAzul2"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/tvAciertos"
+        android:layout_width="166dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="804dp"
+        android:layout_marginEnd="232dp"
+        android:fontFamily="@font/bungeeinline_regular"
+        android:text="@string/vacio"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvAciertosp2"
+        android:layout_width="166dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/bungeeinline_regular"
+        android:rotation="179"
+        android:text="@string/vacio"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
